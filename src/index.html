@@ -13,19 +13,21 @@
 
 <body>
     <div class="container">
-        <div class="input-group">
+        <div class="input-group mb-3">
             <input type="file" class="form-control" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04"
                 aria-label="Upload">
-            <button class="btn btn-outline-secondary" type="button" id="inputGroupFileAddon04">Start</button>
-            <button class="btn btn-outline-secondary copy_btn" type="button" id="inputGroupFileAddon04" onclick="myFunction()">Copy Text</button>
+            <button class="btn btn-success" type="button" id="inputGroupFileAddon04">Start</button>
         </div>
-            <div id="status" class="alert alert-secondary progress" role="alert">progress</div>
+        <div class="input-group">
+            <div id="status" class="alert alert-secondary progress form-control" role="alert">I'm ready...</div>
+            <button class="btn btn-info" type="button" id="copy" onclick="copyText();" >Copy Text</button>
+        </div>
         <div class="bottom">
             <div>
                 <img src="">
             </div>
             <div>
-                <textarea id="text_area" placeholder="text"></textarea>
+                <textarea id="txt_copy" placeholder="text" readonly></textarea>
             </div>
         </div>
     </div>

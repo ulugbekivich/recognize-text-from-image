@@ -5,21 +5,6 @@ const progress = document.querySelector('.progress');
 const textarea = document.querySelector('textarea');
 const progress_status = document.getElementById('status');
 
-function myFunction() {
-    // Get the text field
-    var copyText = document.getElementById("text_area");
-  
-    // Select the text field
-    copyText.select();
-    copyText.setSelectionRange(0, 99999); // For mobile devices
-  
-     // Copy the text inside the text field
-    navigator.clipboard.writeText(copyText.value);
-  
-    // Alert the copied text
-    alert("Copied the text: " + copyText.value);
-}
-
 // first show image on upload
 fileSelector.onchange = () => {
     progress_status.style.backgroundColor='#E9ECEF';
@@ -45,8 +30,13 @@ start.onclick = () => {
         })
         .then(function (data) {
             textarea.innerHTML = data.text
-            progress.innerHTML = 'Done'
+            progress.innerHTML = 'Done!'
             progress_status.style.backgroundColor='lightgreen';
         })
 }
 
+function copyText(){
+    document.getElementById("txt_copy").select();
+    document.execCommand('copy');
+    progress.innerHTML = 'Copied!'
+}
