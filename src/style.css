@@ -25,7 +25,7 @@ body{
     max-height: calc(100% - 20px);
     margin: 10px;
 }
-.bottom div textarea{
+#text_area{
     resize: none;
     width: calc(100% - 21px);
     height: calc(100% - 21px);
@@ -42,4 +42,12 @@ body{
 }
 .bottom div:last-child{
     margin-right: 0px;
+}
+
+#status {
+    color: black;
+    font-size: 16px;
+    padding-top: 5px;
+    padding-bottom: 30px;
+    text-align: center;
 }
