@@ -3,4 +3,4 @@
 
 <h3>Instructions for use 👇</h3>
 <h4>Step 1</h4>
-<img src="https://github.com/ulugbekivich/recognize-text-from-image/blob/main/assets/choose_file.jpg">
+<img src="https://github.com/ulugbekivich/recognize-text-from-image/blob/main/assets/choose_file.jpg" width="600" height="400">
