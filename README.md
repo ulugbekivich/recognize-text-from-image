@@ -1,9 +1,21 @@
 # recognize-text-from-image
 ## Recognize text from image in javascript | Optical Character Recognition | OCR
 
-<h3>Instructions for use 👇</h3>
-<h4>Step 1 | Choose File</h4>
+<h2>Instructions for use 👇</h2>
+<h3>Step 1 | Choose File</h3>
 <img src="https://github.com/ulugbekivich/recognize-text-from-image/blob/main/assets/choose_file.jpg" width="660" height="400">
 <br>
-<h4>Step 2 | Click start button</h4>
+<h3>Step 2 | Click start button</h3>
 <img src="https://github.com/ulugbekivich/recognize-text-from-image/blob/main/assets/start.jpg" width="660" height="400">
+<br>
+<h3>Step 3 | Wait a while</h3>
+<img src="https://github.com/ulugbekivich/recognize-text-from-image/blob/main/assets/loading.jpg" width="660" height="400">
+<br>
+<h3>Step 4 | Done!</h3>
+<img src="https://github.com/ulugbekivich/recognize-text-from-image/blob/main/assets/done.jpg" width="660" height="400">
+<br>
+<h3>Step 5 | Click Copy Text to copy the text</h3>
+<img src="https://github.com/ulugbekivich/recognize-text-from-image/blob/main/assets/copy_text.jpg" width="660" height="400">
+<br>
+
+<h2>⚠️ Agar sizga foydalanuvchi interfeysi yoqmagan saytning foydalanuvchi interfeysini chiroyliroq qilishga o'z hissangizni qo'shing 😁</h2>
