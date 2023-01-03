@@ -18,4 +18,4 @@
 <img src="https://github.com/ulugbekivich/recognize-text-from-image/blob/main/assets/copy_text.jpg" width="660" height="400">
 <br>
 
-<h2>⚠️ Agar sizga foydalanuvchi interfeysi yoqmagan saytning foydalanuvchi interfeysini chiroyliroq qilishga o'z hissangizni qo'shing 😁</h2>
+<h2>⚠️ If you don't like the user interface of the site, contribute to making the user interface of the site more beautiful 😁</h2>
