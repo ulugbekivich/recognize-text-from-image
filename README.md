@@ -1,4 +1,3 @@
-# recognize-text-from-image
 ## Recognize text from image in javascript | Optical Character Recognition | OCR
 
 <h2>Instructions for use 👇</h2>
